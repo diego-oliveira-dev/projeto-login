@@ -6,3 +6,54 @@
     Rosa: #CF515C
     Verde escuro: #081C1B
 */
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #081C1B;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    background-color: #191a19;
+    color: white;
+    width: 250px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.462);
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease; /* suaviza a animação */
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #081C1B url(../imagens/pexels-oleksandr-tiupa-192136\ \(1\).jpg) no-repeat;
+    background-image: contain;
+    background-position: center center;
+    height: 200px;
+}
+
+section#login > div#form {
+    display: block;
+    padding: 10px;
+}
