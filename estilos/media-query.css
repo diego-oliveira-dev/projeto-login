@@ -30,6 +30,10 @@
         float: right;
         width: 55%;
     }
+
+    div#form {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -51,5 +55,9 @@
     section#login > div#form {
         float: right;
         width: 50%;
+    }
+    
+    div#form > h1, div#form > p{
+        text-align: center;
     }
 }
