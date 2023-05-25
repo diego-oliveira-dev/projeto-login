@@ -10,6 +10,12 @@
     Telas muito grandes: 1201px+
 */
 
+@media screen and (max-width: 575px) {
+    section#login {
+        height: 90%;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
