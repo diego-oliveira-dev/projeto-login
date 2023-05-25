@@ -36,8 +36,8 @@
         text-align: center;
     }
     
-    form > p {
-        display: inline;
+    form > footer{
+        display: inline-block;
     }
     }   
 
@@ -67,7 +67,7 @@
         text-align: center;
     }
     
-    form > p {
-        display: inline;
+    form > footer{
+        display: inline-block;
     }
 }

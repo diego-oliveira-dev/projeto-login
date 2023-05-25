@@ -99,7 +99,18 @@ input[type=email], input[type=password] {
     padding: 3px;
 }
 
+input[type=email] {
+    padding: 7px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
 input[type=password] {
+    padding: 7px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 20px;
     margin-bottom: 10px;
 }
 
@@ -144,17 +155,17 @@ form > a.botao:hover {
     cursor: pointer;
 }
 
-form > p {
+form > footer {
+    display: none;
     margin-top: 40px;
 }
 
-form > p {
-    display: none;
+form > footer > a {
     color: #51CF6E;
     text-decoration: none;
 }
 
-form > p > a:hover {
+form > footer > a:hover {
     color: white;
     text-decoration: underline;
 }
