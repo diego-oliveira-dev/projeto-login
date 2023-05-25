@@ -58,6 +58,103 @@ section#login > div#form {
     padding: 10px;
 }
 
+div#form {
+    text-align: center;
+}
+
 div#form > h1 {
     margin-bottom: 10px;
+}
+
+div#form > p {
+    margin-bottom: 10px;
+}
+
+form > div.campo {
+    width: 100%;
+    display: block;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > span {
+    color: white;
+    font-size: 1.8em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    height: 100%;
+    border: 0px;
+    width: 100%-44px;
+    transform: translateY(-10px);
+}
+
+input[type=email], input[type=password] {
+    margin: auto;
+    padding: 3px;
+}
+
+input[type=password] {
+    margin-bottom: 10px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #51CF6E;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #081C1B;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #479258;
+    font-weight: bolder;
+    border: 1px solid #479258;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #081C1B;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+form > p {
+    margin-top: 40px;
+}
+
+form > p > a {
+    display: none;
+    color: #51CF6E;
+    text-decoration: none;
+}
+
+form > p > a:hover {
+    color: white;
+    text-decoration: underline;
 }
