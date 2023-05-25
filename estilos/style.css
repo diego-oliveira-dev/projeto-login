@@ -29,8 +29,8 @@ main {
 section#login {
     background-color: #191a19;
     color: white;
-    width: 250px;
-    height: 500px;
+    width: 40%;
+    height: 80%;
     border: 2px solid black;
     border-radius: 20px;
     overflow: hidden;
@@ -148,7 +148,7 @@ form > p {
     margin-top: 40px;
 }
 
-form > p > a {
+form > p {
     display: none;
     color: #51CF6E;
     text-decoration: none;
