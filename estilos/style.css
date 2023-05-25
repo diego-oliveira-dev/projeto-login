@@ -156,7 +156,7 @@ form > a.botao:hover {
 }
 
 form > footer {
-    display: none;
+    display: block;
     margin-top: 40px;
 }
 
